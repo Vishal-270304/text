@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.more{
+    padding: 60px;
+}
+
+.container{
+    background-color: aqua;
+    width: 100%;
+    /* padding: 20px; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container{
+    font-size: 30px;
+    width: 20ch;
+    overflow: hidden;
+    animation: type  2s  steps(22);
+    white-space: nowrap;
+color: salmon;
+}
+
+
+@keyframes type{
+    from{
+        width: 0;
+    }
+}
